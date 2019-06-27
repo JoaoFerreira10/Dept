@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: Teko;
+    src: url('./fonts/Teko/Teko-Regular.ttf');
+}
+
+
+//COLORS
+$black: #0e0e0e;
+$strong-blue: #1a18f7;
+$white-two: #ffffff;
+$white-three: #dddddd;
+$black-two: #272727;
+$warm-grey: #808080;
+$warm-grey-two: #939393;
+$pale-grey: #f3f6f6;
+$greyish: #a3a3a3;
+
+//SCREEN SIZE
+$mobile: 768px;
+
+
+@mixin title {
+    height: 30px;
+    font-family: MaisonNeue;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: $warm-grey-two;
+}
+
+@mixin text-content {
+    font-family: Teko;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: $black-two;
+}
+
+.triangle-right {
+    margin: auto;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 9px solid $strong-blue;
+    border-bottom: 5px solid transparent;
+}
+  
+.triangle-up {
+    margin: 0 auto;
+    width: 0px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 14px solid $strong-blue;
+}

@@ -1,0 +1,45 @@
+@import './Style';
+
+.quote-content {
+    width: 100%;
+    border-top: 1px solid $white-three;
+    padding: 0 190px;
+    margin-bottom: 80px;
+    @media screen and (max-width: $mobile) {
+        padding: 0;
+        margin-bottom: 58px;
+    }
+}
+
+.quote{
+    width: 760px;
+    margin-top: 80px;
+    @include text-content;
+    line-height: 1.28;
+    font-size: 36px;
+    height: 144px;
+    color: $black-two;
+    @media screen and (max-width: $mobile) {
+        margin-top: 40px;
+        margin-top: 20px;
+        font-size: 24px;
+        width: 335px;
+        height: 120px;
+        line-height: 1.25;
+    }
+}
+
+.author-quote {
+    @include text-content;
+    width: 359px;
+    height: 30px;
+    font-weight: bold;
+    line-height: 2.31;
+    font-family: MaisonNeue;
+    color: $black-two;
+    @media screen and (max-width: $mobile) {
+        font-size: 13px;
+        width: 335px;
+        height: 30px;
+    }
+}

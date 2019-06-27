@@ -1,0 +1,62 @@
+@import './Style';
+
+
+.name {
+    @include title;
+    margin-top: 20px;
+    @media screen and (max-width: $mobile) {
+        font-size: 14px;
+        line-height: 2.14;
+    }
+}
+
+.news-content {
+    height: 32px;
+    font-size: 30px;
+    line-height: 1.07;
+    @include text-content;
+    @media screen and (max-width: $mobile) {
+        height: 63px;
+        width: 300px;
+    }
+}
+
+.news-img {
+    width: 585px;
+    height: 500px;
+
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.view-case {
+    border-color: transparent;
+    display:inline-flex;
+    height: 30px;
+    font-family: MaisonNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: $strong-blue;
+    @media screen and (max-width: $mobile) {
+        display: none;
+    }
+}
+
+.desktop-grid {
+    width: 585px;
+    height: 637px;
+    margin: auto;
+    margin-bottom: 80px;
+
+    @media screen and (max-width: $mobile) {
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}

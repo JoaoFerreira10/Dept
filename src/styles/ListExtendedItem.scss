@@ -1,0 +1,60 @@
+@import './Style';
+
+.desktop-extended-grid {
+    width: 100%;
+    height: 639px;
+    margin-bottom: 80px;
+    @media screen and (max-width: $mobile) {
+        height: auto;
+    }
+}
+.news-subcontent {
+    width: 260px;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    @include text-content;
+    @media screen and (max-width: $mobile) {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+.news-extended-item-img {
+    width: 800px;
+    height: 500px;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.news-extended-title{
+    margin-bottom: 10px;
+    @include title;
+    @media screen and (max-width: $mobile) {
+        margin-top: 20px;
+    }
+}
+
+.left{
+    justify-content: space-between;
+}
+
+.extra-content {
+    margin-left: 42px;
+    border-top: 1px solid $white-three; 
+
+    > div {
+        border-bottom: 1px solid $white-three;
+        height: 250px;
+        @media screen and (max-width: $mobile) {
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+}

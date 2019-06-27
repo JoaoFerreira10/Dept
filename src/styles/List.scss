@@ -1,0 +1,10 @@
+@import './Style';
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: $mobile) {
+        display: block;
+    }
+}

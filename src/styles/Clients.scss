@@ -1,0 +1,47 @@
+@import './Style';
+
+.clients {
+    width: 1420px;
+    height: 985px;
+    background-color: $pale-grey;
+    padding-top: 80px;
+    @media screen and (max-width: $mobile) {
+        height: 580px;
+        width: 100%;
+        padding-top: 40px 20px 0 20px;    
+    }
+}
+
+.clients-title {
+    text-align: center;
+    width: 560px;
+    height: 60px;
+    font-size: 60px;
+    line-height: 1;
+    margin: 0px auto;
+    @include text-content;
+    @media screen and (max-width: $mobile) {
+        font-size: 30px;
+        height: 32px;
+        width: 335px;
+        line-height: 1.07;
+    }
+}
+
+.We-value-a-great-wor {
+    width: 560px;
+    height: 81px;
+    font-family: MaisonNeue;
+    font-size: 17px;
+    line-height: 1.59;
+    text-align: center;
+    margin: 0px auto;
+    @include text-content;
+    @media screen and (max-width: $mobile) {
+        margin-top: 20px;
+        font-size: 17px;
+        height: 135px;
+        width: 335px;
+        line-height: 1.59;
+    }
+  }

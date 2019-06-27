@@ -1,0 +1,144 @@
+[
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "BOL.COM",
+        "content": "A summer island in the Netherlands",
+        "image": "bolcom.png",
+        "extraContent": null
+    },
+    {
+        "industryId": 2,
+        "contentType": "new",
+        "title": "KEMPEN",
+        "content": "Not some average banking website",
+        "image": "kempen.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "PHILIPS",
+        "content": "Beautiful design meets innovative technology",
+        "image": "philips.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "GEMEENTEMUSEUM",
+        "content": "100 years of Mondriaan & De Stijl",
+        "image": "gemeentemuseum.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "Florensis",
+        "content": "Rethinking the entire online ecosystem",
+        "image": "florensis.png",
+        "extraContent": {
+            "position": "right",
+            "content": [
+                {
+                    "title": "Microsoft",
+                    "content": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels" 
+                },
+                {
+                    "title": "O’NEILL",
+                    "content": "Integrating existing content into O’Neill’s new e-commerce platform" 
+                }
+            ]
+        }     
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "Be Lighting",
+        "content": "Delivering clarity on a global scale",
+        "image": "lightning.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 2,
+        "contentType": "new",
+        "title": "TUI",
+        "content": "Swipe to find your next holiday destination",
+        "image": "tui.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 2,
+        "contentType": "new",
+        "title": "Florensis",
+        "content": "Rethinking the entire online ecosystem",
+        "image": "florensis.png",
+        "extraContent": {
+            "position": "left",
+            "content": [
+                {
+                    "title": "BUTLINS",
+                    "content": "Enhancing customer experience for personalised holiday planning using real time data" 
+                },
+                {
+                    "title": "VACANSESELECT",
+                    "content": "Predicting booking behavior for holidays with smart data, voice search and machine learning" 
+                }
+            ]
+        }     
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "Chocomel",
+        "content": "A campaign for the limited edition letter packs",
+        "image": "chocomel.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "JBL",
+        "content": "Live like a champion with Jerome Booteng",
+        "image": "jbl.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "ZALANDO",
+        "content": "Innovative SEO and content strategy for Zalando",
+        "image": "zalando.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 2,
+        "contentType": "new",
+        "title": "KONINKLIJKE BIBLIOTHEEK",
+        "content": "The search for the most influential book ever",
+        "image": "koninklijke-bibliotheek.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 2,
+        "contentType": "quote",
+        "quote": "Dept helped us tell our story through a bold new identity and a robust online experience. To the tune of 60% growth in online bookings in just one month.",
+        "author": "MATTIJS TEN BRINK – CEO, TRANSAVIA"
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "LIBERTY GLOBAL",
+        "content": "Delivering complex commerce solutions",
+        "image": "liberty-global.png",
+        "extraContent": null 
+    },
+    {
+        "industryId": 1,
+        "contentType": "new",
+        "title": "ARLA",
+        "content": "Swipe to find your next holiday destination",
+        "image": "arla.png",
+        "extraContent": null 
+    }
+]

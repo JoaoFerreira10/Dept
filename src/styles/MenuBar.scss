@@ -1,0 +1,195 @@
+@import './Style';
+
+@mixin dept-brand {
+    width: 100px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 28px;
+    z-index: 2;
+    @media screen and (max-width: $mobile) {
+        width: 50px;
+        height: 14px;
+        line-height: 14px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}
+
+.menu {
+    background-size: 150% 150%;
+    width: 1400px;
+    height: 940px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url('../Images/florensis.png');
+    @media screen and (max-width: $mobile) {
+        margin: 0;
+        width: 100%;
+        height: 370px;
+    }
+}
+
+.navbar{
+    height: 80px;
+    margin: 0 100px;
+    border-bottom: 1px solid $black;
+
+    @media screen and (max-width: $mobile) {
+        height: 50px;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        background: $white-two;
+    }
+}
+
+.navbar-content {
+    background-color: black;
+    text-align: right;
+    color: $white-two;
+    padding-bottom: 25px;
+    @media screen and (max-width: $mobile) {
+        padding: 0;
+    }
+}
+
+.navbar-item {
+    padding: 3px 5px;
+    color: white;
+    font-size: 28px;
+    border-top: 1px solid whitesmoke;
+}
+
+.menu-name {
+    margin-right: 26px;
+    width: 30px;
+    height: 32px;
+    font-family: Teko;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: $black;
+    @media screen and (max-width: $mobile) {
+        margin-right: 19px;
+        font-weight: bold;
+    }
+}
+
+.menu-btn {
+    height: 32px;
+    border: 0px;
+    z-index: 2;
+}
+
+.WORK {
+    margin: 0 100px;
+    margin-bottom: 249px;
+    margin-top: 80px;
+    width: 798px;
+    height: 400px;
+    font-family: Teko;
+    font-size: 400px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    @media screen and (max-width: $mobile) {
+        font-size: 170px;
+        margin: 80px 20px 70px 20px;
+        width: auto;
+        height: auto;
+    }
+}
+
+.VIEW-CASE-TITLE {
+    height: 30px;
+    font-family: MaisonNeue;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white-two;
+}
+
+.Rectangle-4 {
+    border: 0px;
+    margin: 0 100px;
+    float: right;
+    width: 170px;
+    height: 50px;
+    background-color: $black;
+    @media screen and (max-width: $mobile) {
+        margin: 20px 20px 30px 20px;
+        width: calc(100% - 40px);
+    }
+}
+
+.menu-collapse {
+    position: absolute;
+    top: 0px;
+    padding-top: 80px;
+    margin-left: -116px;
+    width: 1400px;
+    height: 940px;
+    @media screen and (max-width: $mobile) {
+       width: 100%;
+       margin-left: 0;
+       padding-top: 100px;
+       height: 667px;
+       z-index: 1;
+    }
+}
+
+.menu-collapse-btn {
+    @include text-content;
+    margin: 0 100px;
+    color: $white-two;
+    font-size: 110px;
+    height: 110px;
+    line-height: 1;
+    text-align: right;
+    @media screen and (max-width: $mobile) {
+        font-size: 50px;
+        height: 50px;
+        margin: 0 20px;
+     }
+}
+
+.menu-close-btn {
+    color:$white-two;
+}
+
+.dept-brand {
+    @include dept-brand;
+}
+
+.dept-brand-white {
+    @include dept-brand;
+    color: $white-two;
+}
+
+.triangle-right-menu {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -68px;
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-left: 28px solid $white-two;
+    border-bottom: 14px solid transparent;
+    @media screen and (max-width: $mobile) { 
+        border-top: 9px solid transparent;
+        border-left: 18px solid $white-two;
+        border-bottom: 9px solid transparent;
+        margin-left: -28px;
+        margin-top: 14px;
+    }
+}
