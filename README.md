@@ -11,6 +11,6 @@ This project consists in a web Application created with React for Dept Agency.
 - Responsive typography
 - Filtering by industry
 - Contact form validation
-- Data inserted dinamically
+- Data inserted dynamically
 
 
